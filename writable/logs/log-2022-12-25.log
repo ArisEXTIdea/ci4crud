@@ -1,0 +1,142 @@
+CRITICAL - 2022-12-25 14:54:16 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\/App/Modules/Siakun/Controllers/Siakun::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/App/Modules/Siakun/Controllers/Siakun::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('D:\\')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('D:\\')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 15:05:22 --> Invalid file: form_add.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_add.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('form_add', [], true)
+ 3 APPPATH\Modules\Siakun\Controllers\Siakun.php(25): view('form_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 15:05:48 --> Invalid file: App\Modules\Siakun\View/form_add.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Siakun\\View/form_add.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\View/form_add', [], true)
+ 3 APPPATH\Modules\Siakun\Controllers\Siakun.php(25): view('App\\Modules\\Siakun\\View/form_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 15:05:54 --> Invalid file: App\Modules\Siakun\View\form_add.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Siakun\\View\\form_add.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\View\\form_add', [], true)
+ 3 APPPATH\Modules\Siakun\Controllers\Siakun.php(25): view('App\\Modules\\Siakun\\View\\form_add', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 15:06:00 --> Invalid file: themes/MainContriner.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/MainContriner.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('themes/MainContriner', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\form_add', [], true)
+ 4 APPPATH\Modules\Siakun\Controllers\Siakun.php(25): view('App\\Modules\\Siakun\\Views\\form_add', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 15:24:13 --> Undefined variable: config
+in APPPATH\Modules\Siakun\Views\form_add.php on line 15.
+ 1 APPPATH\Modules\Siakun\Views\form_add.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: config', 'APPPATH\\Modules\\Siakun\\Views\\form_add.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Modules\\Siakun\\Views\\form_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\form_add', [], true)
+ 5 APPPATH\Modules\Siakun\Controllers\Siakun.php(25): view('App\\Modules\\Siakun\\Views\\form_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 15:52:31 --> Undefined index: name
+in APPPATH\Modules\Siakun\Views\dashboard.php on line 54.
+ 1 APPPATH\Modules\Siakun\Views\dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Modules\\Siakun\\Views\\dashboard.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Modules\\Siakun\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\dashboard', [], true)
+ 5 APPPATH\Modules\Siakun\Controllers\Siakun.php(42): view('App\\Modules\\Siakun\\Views\\dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->render_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 16:01:06 --> Undefined index: name
+in APPPATH\Modules\Siakun\Views\detail_user.php on line 7.
+ 1 APPPATH\Modules\Siakun\Views\detail_user.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Modules\\Siakun\\Views\\detail_user.php', 7, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Modules\\Siakun\\Views\\detail_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\detail_user', [], true)
+ 5 APPPATH\Modules\Siakun\Controllers\Siakun.php(57): view('App\\Modules\\Siakun\\Views\\detail_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->render_user_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 16:14:33 --> Undefined variable: userDatap
+in APPPATH\Modules\Siakun\Views\form_edit.php on line 42.
+ 1 APPPATH\Modules\Siakun\Views\form_edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userDatap', 'APPPATH\\Modules\\Siakun\\Views\\form_edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Modules\\Siakun\\Views\\form_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\form_edit', [], true)
+ 5 APPPATH\Modules\Siakun\Controllers\Siakun.php(72): view('App\\Modules\\Siakun\\Views\\form_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->render_user_edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 16:25:47 --> unlink(./assets/uploads/): Is a directory
+in APPPATH\Modules\Siakun\Controllers\Siakun.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./assets/uploads/): Is a directory', 'APPPATH\\Modules\\Siakun\\Controllers\\Siakun.php', 154, [...])
+ 2 APPPATH\Modules\Siakun\Controllers\Siakun.php(154): unlink('FCPATH\\assets\\uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->update_data_user_image()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 17:03:21 --> Invalid file: App\Modules\Siakun\Views\dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Siakun\\Views\\dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\dashboard', [], true)
+ 3 APPPATH\Modules\Siakun\Controllers\Siakun.php(42): view('App\\Modules\\Siakun\\Views\\dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->render_dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 17:03:25 --> Invalid file: App\Modules\Siakun\Views\dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Siakun\\Views\\dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\dashboard', [], true)
+ 3 APPPATH\Modules\Siakun\Controllers\Siakun.php(42): view('App\\Modules\\Siakun\\Views\\dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->render_dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 17:03:27 --> Invalid file: App\Modules\Siakun\Views\dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Siakun\\Views\\dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\dashboard', [], true)
+ 3 APPPATH\Modules\Siakun\Controllers\Siakun.php(42): view('App\\Modules\\Siakun\\Views\\dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->render_dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 17:03:30 --> Invalid file: App\Modules\Siakun\Views\dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Siakun\\Views\\dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\dashboard', [], true)
+ 3 APPPATH\Modules\Siakun\Controllers\Siakun.php(42): view('App\\Modules\\Siakun\\Views\\dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->render_dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-25 17:03:34 --> Invalid file: App\Modules\Siakun\Views\dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Siakun\\Views\\dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('App\\Modules\\Siakun\\Views\\dashboard', [], true)
+ 3 APPPATH\Modules\Siakun\Controllers\Siakun.php(42): view('App\\Modules\\Siakun\\Views\\dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Modules\Siakun\Controllers\Siakun->render_dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Siakun\Controllers\Siakun))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
